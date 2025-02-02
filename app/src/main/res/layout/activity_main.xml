@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/gg"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/registr"
+                android:hint="ელ.ფოსტა"
+                android:inputType="textEmailAddress"
+                android:padding="7dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/registr"
+                android:hint="პაროლი"
+                android:inputType="textPassword"
+                android:padding="7dp"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="67dp"
+            android:background="@drawable/kuku"
+            android:text="შესვლა"
+            android:textColor="#F8F6F6"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/kuku"
+            android:text="რეგისტრაცია"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+</layout>

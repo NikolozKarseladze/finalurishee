@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounda"
+    tools:context=".archevaniActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="რა გაინტერესებთ?"
+            android:textAlignment="center"
+            android:textColor="#F8F5F5"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/zodiaqoebi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#94FFFFFF"
+            android:text="ინფორმაცია ზოდიაქოზე"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/videoebi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#94FFFFFF"
+            android:text="ყველზე აქტუალური კითხვები"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/wlebi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#94FFFFFF"
+            android:text="ჩინური ჰოროსკოპი"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/mrgvali" />
+    </LinearLayout>
+
+</FrameLayout>

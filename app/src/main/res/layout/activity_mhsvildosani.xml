@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounda"
+    tools:context=".mhsvildosaniActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="80dp"
+            android:src="@mipmap/mshvildosani" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp"
+                android:text="და­უ­ღა­ლა­ვი, მხი­ა­რუ­ლი, მე­გობ­რუ­ლი, მზით მშვილ­დო­სა­ნი ინ­დი­ვი­დე­ბი ძა­ლი­ან აქ­ტი­უ­რი ადა­მი­ა­ნე­ბი არი­ან, სულ და­კა­ვე­ბუ­ლი და სულ რა­ღა­ცით გარ­თუ­ლი. კენ­ტავ­რი ადა­მი­ა­ნის და ცხო­ვე­ლის სინ­თე­ზია და ამ ნი­შან­შიც ძა­ლი­ან სა­ინ­ტე­რე­სოდ არის შერ­წყმუ­ლი სუ­ლი­ე­რე­ბა და ცხო­ვე­ლუ­რი ინ­სტიქ­ტე­ბი.ქა­რიზ­მა­ტუ­ლი ხართ, მომ­ხიბ­ლა­ვი (თუნ­დაც ლა­მა­ზი არ იყოთ), გუ­ლუხ­ვი და ხელ­გაშ­ლი­ლი. რო­გორც არ უნდა გი­ჭირ­დეთ, სხვე­ბი ვე­რა­ფერს შე­გა­ტყო­ბენ.ხალ­ხი ბევრ რა­მეს გპა­ტი­ობთ და უყ­ვარ­ხართ."
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="დღევანდელი ჰოროსკოპი :"
+                android:textColor="#CC1616"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textmshvildosani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

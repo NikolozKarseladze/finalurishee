@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000C18"
+    tools:context=".videocagareliActivity">
+
+
+    <Button
+        android:id="@+id/kitxva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:text="რისი ბრალია ხილვები?" />
+
+    <Button
+        android:id="@+id/kitxvari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:background="#fff"
+        android:text="რა გველოდება წელს?" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/dedamiwa" />
+
+
+</FrameLayout>

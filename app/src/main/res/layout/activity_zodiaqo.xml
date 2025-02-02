@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounda"
+    tools:context=".zodiaqoActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Merwyuli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♒ მერწყული (20 იანვარი – 18 თებერვალი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Tevzebi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♓ თევზები (19 თებერვალი – 20 მარტი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Verdzi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♈ ვერძი (21 მარტი – 19 აპრილი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Kuro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♉ კურო (20 აპრილი – 20 მაისი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Tyupebi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♊ ტყუპები (21 მაისი – 20 ივნისი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Kirchxibi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♋ კირჩხიბი (21 ივნისი – 22 ივლისი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Lomi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♌ ლომი (23 ივლისი – 22 აგვისტო)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Qalwuli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♍ ქალწული (23 აგვისტო – 22 სექტემბერი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Saswori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♎ სასწორი (23 სექტემბერი – 22 ოქტომბერი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Morieli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♏ მორიელი (23 ოქტომბერი – 21 ნოემბერი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Mshvildosani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♐ მშვილდოსანი (22 ნოემბერი – 21 დეკემბერი)"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/Txisrqa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:text="♑ თხის რქა (22 დეკემბერი – 19 იანვარი)"
+                android:textSize="23dp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

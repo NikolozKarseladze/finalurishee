@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "484293081309",
+    "firebase_url": "https://finalurishee.firebaseio.com",
+    "project_id": "finalurishee",
+    "storage_bucket": "finalurishee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484293081309:android:0385d6235c5f0f5690c334",
+        "android_client_info": {
+          "package_name": "btu.ge.finalurishee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484293081309-v8jn1a94ruqoel77rusogh58feo2dl40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXn2h4dQM7zh3zlHjbs7qDUnY6kZjq2vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484293081309-v8jn1a94ruqoel77rusogh58feo2dl40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

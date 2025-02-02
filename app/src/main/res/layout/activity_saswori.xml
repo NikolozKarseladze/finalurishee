@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounda"
+    tools:context=".sasworiActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/saswori" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp"
+                android:text="სასწორი: გაუბედავი, ჰარმონიული, პაცეფისტი, დამთმობი, გაურბის კონფლიქტეპს, დიპლომატი, არ უყვარს მარტოობა, ხშირად სისულელეებს აკეთებს, იდეალისტი, რომანტიკოსი, მიმზიდველი, უყვარს ხელოვნება, ახასიათებს მოუთმენლობა."
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="დღევანდელი ჰოროსკოპი :"
+                android:textColor="#0E0D0D"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textSaswori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

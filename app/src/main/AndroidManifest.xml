@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="btu.ge.finalurishee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Activities listed here -->
+        <activity android:name=".ociActivity" android:exported="false" />
+        <activity android:name=".qaliActivity" android:exported="false" />
+        <activity android:name=".videocagareliActivity" android:exported="false" />
+        <activity android:name=".archevaniActivity" android:exported="false" />
+        <activity android:name=".asakiActivity" android:exported="false" />
+        <activity android:name=".txaActivity" android:exported="false" />
+        <activity android:name=".mhsvildosaniActivity" android:exported="false" />
+        <activity android:name=".morieliActivity" android:exported="false" />
+        <activity android:name=".sasworiActivity" android:exported="false" />
+        <activity android:name=".qalwuliActivity" android:exported="false" />
+        <activity android:name=".lomiActivity" android:exported="false" />
+        <activity android:name=".kirchxibiActivity" android:exported="false" />
+        <activity android:name=".tyupebiActivity" android:exported="false" />
+        <activity android:name=".kuroActivity" android:exported="false" />
+        <activity android:name=".verdziActivity" android:exported="false" />
+        <activity android:name=".tevzebiActivity" android:exported="false" />
+        <activity android:name=".merwyuliActivity" android:exported="false" />
+        <activity android:name=".zodiaqoActivity" android:exported="false" />
+        <activity android:name=".registerActivity" android:exported="false" />
+
+        <!-- Main Activity with intent filter -->
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

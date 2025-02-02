@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounda"
+    tools:context=".registerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="რეგისტრაცია"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/Signupmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/registr"
+            android:hint="ელ.ფოსტა"
+            android:inputType="textEmailAddress"
+            android:padding="7dp"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Signuppassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/registr"
+            android:hint="პაროლი"
+            android:inputType="textPassword"
+            android:padding="7dp"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/kuku"
+            android:text="დარეგისტრირება"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

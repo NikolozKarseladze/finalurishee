@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".asakiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/asaki14"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="20014"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki15"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2015"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki16"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2016"
+            android:textColor="#F5F2F2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/asaki17"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2017"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki18"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2018"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki19"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2019"
+            android:textColor="#F5F2F2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/asaki20"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2020"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki21"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2021"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki22"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2022"
+            android:textColor="#F5F2F2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/asaki23"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2023"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki24"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2024"
+            android:textColor="#F5F2F2" />
+
+        <Button
+            android:id="@+id/asaki25"
+            android:layout_width="135dp"
+            android:layout_height="99dp"
+            android:background="@drawable/kuku"
+            android:text="2025"
+            android:textColor="#F5F2F2" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="405dp"
+        android:src="@drawable/mrgvalii" />
+</FrameLayout>
